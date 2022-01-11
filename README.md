@@ -22,13 +22,25 @@ The total number of images used -
 ```
 git clone https://github.com/Saransh-cpp/IIITD_ALIVE_DSM
 ```
-2. Run [train.ipynb](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb) to re-train the model (the model is already trained).
-3. To start the live video feed for drowsiness detection, run -
+2. Create a virtual environment
 ```
 cd IIITD_ALIVE_DSM
+python -m venv .env
+```
+3. Activate the environment
+```
+.env/Scripts/activate
+```
+4. Install the requirements
+```
+pip install -r requirements.txt
+```
+5. Run [train.ipynb](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb) to re-train the model (the model is already trained).
+6. To start the live video feed for drowsiness detection, run -
+```
 python drowsiness_detector.py
 ```
-4. To stop the live feed press `q`.
+7. To stop the live feed press `q`.
 
 
 ### Model architecture
