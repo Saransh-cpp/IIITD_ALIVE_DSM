@@ -1,5 +1,8 @@
 # IIITD ALIVE DSM submission
 
+[![Python application](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/actions/workflows/CI.yml/badge.svg)](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/actions/workflows/CI.yml)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb/)
+
 Submission for IIITD's ALIVE lab project round 2.
 
 ## Overview
@@ -53,6 +56,9 @@ The [train](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb
 ### Drowsiness setector in action (screenrecording)
 
 https://user-images.githubusercontent.com/74055102/148997410-5392039c-364d-4a47-9702-9685a0fe7daf.mp4
+
+## Extras
+The repository contains a `CI` built using `GitHub Action` which can be scaled up to include testing of the scripts.
 
 ## Tasks
 ### Task 1
