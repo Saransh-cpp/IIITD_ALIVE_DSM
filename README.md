@@ -3,7 +3,7 @@
 [![Python application](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/actions/workflows/CI.yml/badge.svg)](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/actions/workflows/CI.yml)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb/)
 
-Submission for IIITD's ALIVE lab project round 2.
+Submission for IIITD's ALIVE project round 2.
 
 ## Overview
 ### Relevant files
