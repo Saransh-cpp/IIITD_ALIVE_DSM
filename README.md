@@ -38,8 +38,9 @@ python drowsiness_detector.py
 
 The [train]() notebook is very well documented.
 
-### Screenrecording
+### Drowsiness setector in action (screenrecording)
 
+https://user-images.githubusercontent.com/74055102/148997410-5392039c-364d-4a47-9702-9685a0fe7daf.mp4
 
 ## Tasks
 ### Task 1
