@@ -4,9 +4,9 @@ Submission for IIITD's ALIVE lab project round 2.
 
 ## Overview
 ### Relevant files
-- [train.ipynb]()
-- [drowsiness_detector.py]()
-- [model.tflite]()
+- [train.ipynb](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb)
+- [drowsiness_detector.py](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/drowsiness_detector.py)
+- [model.tflite](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/model.tflite)
 
 ### Dataset
 The model uses a combination of 2 datasets to improve the accuracy. These datasets are -
@@ -22,7 +22,7 @@ The total number of images used -
 ```
 git clone https://github.com/Saransh-cpp/IIITD_ALIVE_DSM
 ```
-2. Run [train.ipynb]() to re-train the model (the model is already trained).
+2. Run [train.ipynb](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb) to re-train the model (the model is already trained).
 3. To start the live video feed for drowsiness detection, run -
 ```
 cd IIITD_ALIVE_DSM
@@ -36,7 +36,7 @@ python drowsiness_detector.py
 - Last layer of `VGG19` has been removed and a `Flatten` layer with a new output layer has been added.
 - The model uses `adam` optimizer and `categorical_crossentropy` loss function.
 
-The [train]() notebook is very well documented.
+The [train](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb) notebook is very well documented.
 
 ### Drowsiness setector in action (screenrecording)
 
@@ -44,7 +44,7 @@ https://user-images.githubusercontent.com/74055102/148997410-5392039c-364d-4a47-
 
 ## Tasks
 ### Task 1
-The model has been trained and converted into `tflite` format in the [train]() notebook. The trained `tflite` model is also present [here]().
+The model has been trained and converted into `tflite` format in the [train](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/train.ipynb) notebook. The trained `tflite` model is also present [here](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/model.tflite).
 
 ### Task 2
-Drowsiness detector to run on live video feed has been created in [drowsiness_detector.py]().
+Drowsiness detector to run on live video feed has been created in [drowsiness_detector.py](https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/main/drowsiness_detector.py).
