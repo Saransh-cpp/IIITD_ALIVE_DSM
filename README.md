@@ -43,6 +43,9 @@ pip install -r requirements.txt
 ```
 python drowsiness_detector.py
 ```
+**Note**: You might need to edit thhe number passed in `VideoCapture` to your webcam's number (0, 1, 2, 3, ....) -
+https://github.com/Saransh-cpp/IIITD_ALIVE_DSM/blob/ced24be79aa889b580fcd089038edc7cbfc32120/drowsiness_detector.py#L26
+
 7. To stop the live feed press `q`.
 
 
